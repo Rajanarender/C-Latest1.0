@@ -1,0 +1,18 @@
+Copyconstructor:
+Creating new object using the existing object
+It does not have return type
+We can use Initializer list
+We cannot copy same object(obj=obj),Compiler throws Error "Redeclaration of object"
+
+AssignmentOperator:
+Assigning one existing object with the other existing object
+It has return type[obect by reference]
+We cannot use Initializer list
+We can assign same object(obj=obj),Works fine -Self Assignation
+
+NOTE:
+Due to obj=obj, Memory gets wasted 
+To avoid this,We can use Self Assignment Check condition(if this != &obj)
+
+
+
